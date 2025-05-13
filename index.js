@@ -3,7 +3,7 @@ const http= require('http')
 const fs = require('fs')
 const path = require('path')
 
-function requestController() {
+function requestController(req, res) {
     console.log('Bienvenidos al curso')
 
      const filePath = path.join(__dirname, 'index.html')
